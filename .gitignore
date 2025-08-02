@@ -1,0 +1,52 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Model and scaler/encoder files
+*.h5
+*.pickle
+*.joblib
+
+# Streamlit cache
+.streamlit/cache/
+.streamlit/config.toml
+
+# Python packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# Temporary or test data
+*.csv
+*.tmp
+*.log
+
+# Pip wheel cache
+pip-wheel-metadata/
+
+# MyPy and pytest
+.mypy_cache/
+.pytest_cache/
+
+# OS files
+Thumbs.db
+Desktop.ini
